@@ -63,7 +63,7 @@ export default function Navbar() {
                             ? "text-blue-600 dark:text-blue-400 font-bold"
                             : "text-black/60 dark:text-white/50 hover:text-black dark:hover:text-white"
                             }`}>
-                        O Outro Nivel
+                        Martinez
                     </Link>
 
                     <Link href="/#vitrine" onClick={(e) => handleLinkClick(e, "vitrine")}
