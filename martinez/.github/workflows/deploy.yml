@@ -34,7 +34,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # O build do Next.js gera a pasta 'out' dentro de 'martinez'
+          # PUBLICAÇÃO: Pega o conteúdo de dentro de martinez/out e joga na raiz
           path: ./martinez/out
 
   deploy:
