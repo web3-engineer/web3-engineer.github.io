@@ -1,5 +1,7 @@
 @import "tailwindcss";
-@config "../tailwind.config.js";
+
+/* 🔹 Essa linha substitui todo aquele arquivo tailwind.config.js que apagamos */
+@custom-variant dark (&:where(.dark, .dark *));
 
 @keyframes blurReveal {
   0% {
@@ -25,10 +27,6 @@
     opacity: 0;
     transform: scale(1.05);
   }
-}
-
-.animate-blur-reveal {
-  animation: blurReveal 2s ease-in-out forwards;
 }
 
 @media (prefers-color-scheme: light) {
