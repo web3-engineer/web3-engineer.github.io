@@ -34,6 +34,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
+          # O Next.js exporta para a pasta 'out' dentro do diretório do projeto
           path: ./martinez/out
 
   deploy:
